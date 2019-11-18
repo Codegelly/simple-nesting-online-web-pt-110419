@@ -58,7 +58,7 @@ def dennis_ritchies_language
           :languages => ["C"]
         }
      }
-programmer_hash [:dennis_ritchie][:languages] #i keep getting "C" with brackets how do i stop the brackets ?    
+programmer_hash [:dennis_ritchie][:languages].first  #i keep getting "C" with brackets how do i stop the brackets ?    
      
 end
  
